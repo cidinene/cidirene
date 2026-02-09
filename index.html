@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Construction</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #11D483 0%, #0A9D5F 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 60px 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 90%;
+        }
+
+        .construction-icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
+        .boat-container {
+            width: 200px;
+            height: 150px;
+            margin: 0 auto 30px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 48px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        p {
+            color: #666;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .coming-soon {
+            color: #11D483;
+            font-weight: 600;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .contact-info {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #eee;
+        }
+
+        .contact-info p {
+            font-size: 14px;
+            color: #999;
+            margin: 5px 0;
+        }
+
+        .social-links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #f0f0f0;
+            color: #11D483;
+            text-decoration: none;
+            line-height: 40px;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background: #11D483;
+            color: white;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="boat-container">
+            <svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+                <!-- Waves -->
+                <path d="M 0 120 Q 50 110, 100 120 T 200 120 L 200 150 L 0 150 Z" fill="#0A9D5F" opacity="0.3"/>
+                <path d="M 0 130 Q 50 120, 100 130 T 200 130 L 200 150 L 0 150 Z" fill="#0A9D5F" opacity="0.5"/>
+                
+                <!-- Boat hull -->
+                <path d="M 40 100 L 160 100 L 170 120 L 30 120 Z" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+                
+                <!-- Boat deck -->
+                <rect x="45" y="95" width="110" height="8" fill="#A0522D" stroke="#654321" stroke-width="1"/>
+                
+                <!-- Mast -->
+                <line x1="100" y1="30" x2="100" y2="95" stroke="#333" stroke-width="3"/>
+                
+                <!-- Sail -->
+                <polygon points="100,35 100,90 140,70" fill="#FFFFFF" stroke="#DDD" stroke-width="1" opacity="0.9"/>
+                <polygon points="100,40 100,85 75,65" fill="#F0F0F0" stroke="#DDD" stroke-width="1" opacity="0.8"/>
+                
+                <!-- Flag -->
+                <rect x="98" y="25" width="4" height="20" fill="#333"/>
+                <polygon points="102,27 102,33 115,30" fill="#11D483"/>
+                
+                <!-- Porthole -->
+                <circle cx="100" cy="108" r="3" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
+            </svg>
+        </div>
+        <h1>Under Construction</h1>
+        <p>We're working hard to bring something amazing to you!</p>
+        <p class="coming-soon">Coming Soon</p>
+        
+        <div class="contact-info">
+            <p>Thank you for your patience</p>
+            <p>Follow us for updates</p>
+            <div class="social-links">
+                <a href="#" title="Twitter">𝕏</a>
+                <a href="#" title="Facebook">f</a>
+                <a href="#" title="Instagram">📷</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
