@@ -1,0 +1,202 @@
+{
+    "personalInfo": {
+        "name": "Irene Cid Rico",
+        "title": "Computer Engineer & Senior Software Architect",
+        "email": "cidirene@gmail.com",
+        "phone": "+34 646142516",
+        "location": "Asturias, Spain",
+        "photo": "/public/IMG_6144.jpg",
+        "summary": "Senior Software Architect with 15+ years of experience in high-availability systems and a background in AI research. My expertise lies in building the robust backend infrastructures that clinical systems require to be reliable. My research focus includes developing novel ML techniques and Transformer architectures. Currently serving as a Professor of Software Architecture and Dean of COIIPA."
+    },
+    "socialLinks": {
+        "linkedin": "https://linkedin.com/in/irenecid",
+        "github": "https://github.com/irenecid"
+    },
+    "experience": [
+        {
+            "id": 1,
+            "company": "Government of the Principality of Asturias",
+            "role": "Director General of Health Planning & Digital Strategy",
+            "period": "Jun 2025 – Feb 2026",
+            "description": "Led the regional digital health roadmap, focusing on security policies, risk management, and continuous improvement for Hospital Information Systems (HIS).",
+            "achievements": [
+                "Launched AI-assisted medical reporting project",
+                "Automated digital pathology workflows",
+                "Spearheaded procurement of large-scale AI platform for diagnostics (Cuelebré Project)"
+            ]
+        },
+        {
+            "id": 2,
+            "company": "Oviedo University",
+            "role": "Adjunct Professor & Researcher",
+            "period": "Sep 2019 — Jun 2025",
+            "description": "Collaborated in laboratory sessions for Software Architecture courses and participated in AI research groups.",
+            "achievements": [
+                "Guided students in CI/CD, testing, and deployment",
+                "Research in educational text processing using AI (Python, Pytorch, Flask)",
+                "Published papers on AI in education"
+            ]
+        },
+        {
+            "id": 3,
+            "company": "COIIPA – Asturias",
+            "role": "Dean",
+            "period": "Oct 2022 - Jun 2025",
+            "description": "Led the Official College of Computer Science Engineers, overseeing initiatives to promote engineering excellence.",
+            "achievements": [
+                "Coordinated 'The Hour of Code' workshops",
+                "Co-organized Regional Computer Science Olympiads",
+                "Managed COIIPA News publication"
+            ]
+        },
+        {
+            "id": 4,
+            "company": "Department of Education in Asturias",
+            "role": "Teacher in Vocational Training",
+            "period": "Sep 2016 – Jun 2025",
+            "description": "Computer Science Teacher at CIFP Avilés, responsible for Interface Development, Forensic Analysis, and Secure Deployment subjects.",
+            "achievements": [
+                "Taught React, Node.js, and security practices",
+                "Led 'Digital Signature for Interim Staff' project (Angular, J2EE, Oracle)",
+                "Refactored personnel and teacher training applications"
+            ]
+        },
+        {
+            "id": 5,
+            "company": "Capgemini – Asturias",
+            "role": "Project Manager",
+            "period": "Sep 2015 — Oct 2016",
+            "description": "Managed high-complexity technical tasks and led a team of 6 developers for CaixaBank Building Project.",
+            "achievements": [
+                "Developed automated asset loading processes",
+                "Engineered complex PDF generation engines",
+                "Designed real-time alert and notification systems"
+            ]
+        },
+        {
+            "id": 6,
+            "company": "Exis TI – Madrid",
+            "role": "Technical Senior Engineer",
+            "period": "Ago 2013 — Ago 2015",
+            "description": "Service Manager for the National Postal Service (Correos) account.",
+            "achievements": [
+                "Managed technical specifications and budgets for Horus and Cocal applications",
+                "Architected high-availability technology stack",
+                "Led end-to-end migration of PDAWEB application"
+            ]
+        },
+        {
+            "id": 7,
+            "company": "DXC – Asturias",
+            "role": "Software Engineer",
+            "period": "Jun 2011 — Jun 2013",
+            "description": "Worked on Renault Account (Support & Operations) and Crédit Agricole Account (Development).",
+            "achievements": [
+                "Resolved Level 2 incidents for J2EE applications",
+                "Conducted deep-dive performance analysis",
+                "Developed backend services using Spring and Web Services"
+            ]
+        },
+        {
+            "id": 8,
+            "company": "Oviedo University",
+            "role": "Researcher",
+            "period": "Jul 2007 - Jun 2011",
+            "description": "Designed architecture for 'Asturias 112 Emergency Services Information System' project.",
+            "achievements": [
+                "Supervised research assistants",
+                "Designed system still in use by 112 operators"
+            ]
+        },
+        {
+            "id": 9,
+            "company": "Polystpot – Paris",
+            "role": "Software Developer",
+            "period": "Oct 2004 - Jun 2007",
+            "description": "Core member of search engine development team focusing on high-performance indexing.",
+            "achievements": [
+                "Redesigned core architecture for document-level security",
+                "Optimized indexing speed and query performance",
+                "Led integration with major DMS"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "id": 1,
+            "institution": "UOC",
+            "degree": "Cybersecurity Master",
+            "period": "2017 — 2019",
+            "description": "Specialization in cybersecurity."
+        },
+        {
+            "id": 2,
+            "institution": "Oviedo University",
+            "degree": "Master’s Degree in Secondary Education",
+            "period": "2010 — 2011",
+            "description": "Pedagogical training for secondary education."
+        },
+        {
+            "id": 3,
+            "institution": "Universidad de Oviedo",
+            "degree": "Computer Engineer Master",
+            "period": "2003 — 2005",
+            "description": "Advanced computer engineering studies."
+        },
+        {
+            "id": 4,
+            "institution": "Oviedo University",
+            "degree": "Technical Computer System Engineer",
+            "period": "Sep 1999 — Jun 2003",
+            "description": "Awarded Highest Distinction (Honors) in Final Degree Project."
+        }
+    ],
+    "skills": [
+        {
+            "category": "Frontend",
+            "items": [
+                "React",
+                "React Native",
+                "MUI",
+                "React Bootstrap",
+                "Javascript",
+                "HTML/CSS"
+            ]
+        },
+        {
+            "category": "Backend",
+            "items": [
+                "Java",
+                "J2EE",
+                "Spring Boot",
+                "Node.js",
+                "Python",
+                "Flask"
+            ]
+        },
+        {
+            "category": "Data & AI",
+            "items": [
+                "Oracle",
+                "MongoDB",
+                "Elastic Search",
+                "Lucene",
+                "Pytorch",
+                "HuggingFace",
+                "scikit-learn",
+                "pandas"
+            ]
+        },
+        {
+            "category": "Tools & Infrastructure",
+            "items": [
+                "JBoss",
+                "Websphere",
+                "Git",
+                "Jenkins",
+                "SonarQube",
+                "Selenium"
+            ]
+        }
+    ]
+}

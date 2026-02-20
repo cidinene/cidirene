@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 32">
+  <rect width="48" height="32" rx="6" fill="#ffffff"/>
+  <!-- I: blush pink -->
+  <text
+    x="7"
+    y="22"
+    font-family="'Georgia', 'Palatino Linotype', 'Book Antiqua', serif"
+    font-weight="700"
+    font-style="italic"
+    font-size="18"
+    fill="#F9A8D4"
+  >I</text>
+  <!-- C: medium pink -->
+  <text
+    x="16"
+    y="22"
+    font-family="'Georgia', 'Palatino Linotype', 'Book Antiqua', serif"
+    font-weight="700"
+    font-style="italic"
+    font-size="18"
+    fill="#EC4899"
+  >C</text>
+  <!-- R: deep hot pink -->
+  <text
+    x="30"
+    y="22"
+    font-family="'Georgia', 'Palatino Linotype', 'Book Antiqua', serif"
+    font-weight="700"
+    font-style="italic"
+    font-size="18"
+    fill="#9D174D"
+  >R</text>
+</svg>
