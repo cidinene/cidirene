@@ -53,7 +53,7 @@ const Layout = ({ children, sections, onNavigate, personalInfo, currentTheme, on
                         {personalInfo.name}
                     </Typography>
                     <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
-                        {personalInfo.title}
+                        {personalInfo.title} {console.log(personalInfo.avatar); console.log(`${import.meta.env.BASE_URL}img/${personalInfo.avatar})}
 
                     </Typography>
                 </Box>
