@@ -3,9 +3,8 @@
         "name": "Irene Cid Rico",
         "title": "Computer Engineer & Senior Software Architect",
         "email": "cidirene@gmail.com",
-        "phone": "+34 646142516",
         "location": "Asturias, Spain",
-        "photo": "/public/IMG_6144.jpg",
+        "photo": "IMG_6144.jpg",
         "summary": "Senior Software Architect with 15+ years of experience in high-availability systems and a background in AI research. My expertise lies in building the robust backend infrastructures that clinical systems require to be reliable. My research focus includes developing novel ML techniques and Transformer architectures. Currently serving as a Professor of Software Architecture and Dean of COIIPA."
     },
     "socialLinks": {
