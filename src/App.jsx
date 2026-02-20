@@ -37,7 +37,7 @@ const companyThemes = {
       experienceTitleColor: '#4285F4',
       educationTitleColor: '#0F9D58',  // Google Green
       skillsTitleColor: '#FBBC05',     // Google Yellow
-      image: '/img/google.png',
+      image: `${import.meta.env.BASE_URL}img/google.png`,
     },
   },
   elastic: {
@@ -55,7 +55,7 @@ const companyThemes = {
       experienceTitleColor: '#006BB4',
       educationTitleColor: '#008A5E',
       skillsTitleColor: '#BC1E70',
-      image: '/img/elastic.png',
+      image: `${import.meta.env.BASE_URL}img/elastic.png`,
     },
   },
   tinybird: {
@@ -73,7 +73,7 @@ const companyThemes = {
       experienceTitleColor: '#27F795',
       educationTitleColor: '#27F795',
       skillsTitleColor: '#27F795',
-      image: '/img/tinybird.png',
+      image: `${import.meta.env.BASE_URL}img/tinybird.png`,
     },
   },
   clickhouse: {
@@ -84,7 +84,7 @@ const companyThemes = {
       secondary: { main: '#000000' },
       background: { default: '#000000', paper: '#1a1a1a' },
       text: { primary: '#FFCC01', secondary: '#ffffff' },
-      image: '/img/clickhouse.png',
+      image: `${import.meta.env.BASE_URL}img/clickhouse.png`,
     },
     styles: {
       menuBackground: '#1a1a1a',
@@ -92,7 +92,7 @@ const companyThemes = {
       experienceTitleColor: '#FFCC01',
       educationTitleColor: '#FFCC01',
       skillsTitleColor: '#FFCC01',
-      image: '/img/clickhouse.png',
+      image: `${import.meta.env.BASE_URL}img/clickhouse.png`,
     },
   },
   revenuecat: {
@@ -112,7 +112,7 @@ const companyThemes = {
       experienceTitleColor: '#F2545B',
       educationTitleColor: '#576cdf',
       skillsTitleColor: '#F2545B',
-      image: '/img/revenuecat.png',
+      image: `${import.meta.env.BASE_URL}img/revenuecat.png`,
     },
   },
 };
@@ -151,7 +151,7 @@ function App() {
   const themeStyles = (companyThemes[currentThemeKey] || companyThemes.default).styles;
 
   useEffect(() => {
-    fetch('/cv.json')
+    fetch(`${import.meta.env.BASE_URL}cv.json`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch CV data');
