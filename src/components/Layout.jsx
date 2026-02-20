@@ -53,8 +53,8 @@ const Layout = ({ children, sections, onNavigate, personalInfo, currentTheme, on
                         {personalInfo.name}
                     </Typography>
                     <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
-                        {personalInfo.title}-
-                        {personalInfo.avatar}
+                        {personalInfo.title}
+
                     </Typography>
                 </Box>
             )}
