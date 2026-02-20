@@ -46,14 +46,15 @@ const Layout = ({ children, sections, onNavigate, personalInfo, currentTheme, on
                 <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', mb: 3, mt: 2 }}>
                     <Avatar
                         alt={personalInfo.name}
-                        src={`${import.meta.env.BASE_URL}${personalInfo.photo}`}
+                        src={`${import.meta.env.BASE_URL}img/${personalInfo.avatar}`}
                         sx={{ width: 100, height: 100, mb: 2, border: `4px solid ${theme.palette.primary.main}` }}
                     />
                     <Typography variant="h6" sx={{ textAlign: 'center', fontWeight: 'bold' }}>
                         {personalInfo.name}
                     </Typography>
                     <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
-                        {personalInfo.title}
+                        {personalInfo.title}-
+                        {personalInfo.avatar}
                     </Typography>
                 </Box>
             )}
