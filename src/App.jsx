@@ -3,6 +3,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Layout from './components/Layout';
 import CVContent from './components/CVContent';
 import { CircularProgress, Box } from '@mui/material';
+import { Email } from '@mui/icons-material';
 
 const companyThemes = {
   default: {
@@ -84,7 +85,7 @@ const companyThemes = {
       secondary: { main: '#000000' },
       background: { default: '#000000', paper: '#1a1a1a' },
       text: { primary: '#FFCC01', secondary: '#ffffff' },
-      image: `${import.meta.env.BASE_URL}img/clickhouse.png`,
+
     },
     styles: {
       menuBackground: '#1a1a1a',
@@ -103,16 +104,37 @@ const companyThemes = {
       primary: { main: '#F2545B' },
       secondary: { main: '#1F1F47' },
       background: { default: '#fff', paper: '#eeececff' },
-
+      text: { secondary: '#576cdf' }
 
     },
     styles: {
       menuBackground: '#F2545B',
       fontFamily: '"Nunito", "Outfit", Arial, sans-serif',
       experienceTitleColor: '#F2545B',
-      educationTitleColor: '#576cdf',
+      educationTitleColor: '#F2545B',
       skillsTitleColor: '#F2545B',
       image: `${import.meta.env.BASE_URL}img/revenuecat.png`,
+    },
+  },
+  pearson: {
+    name: 'Pearson',
+    palette: {
+      mode: 'dark',
+      titleColor: '#007FA3',
+
+      primary: { main: '#86acb5ff' },
+      secondary: { main: '#F9F9F9' },
+      background: { default: '#ffffff', paper: '#005A70' },
+      text: { secondary: '#ffce00' },
+    },
+    styles: {
+      menuBackground: '#1d2033',
+      fontFamily: '"Open Sans", sans-serif',
+      experienceTitleColor: '#007FA3',
+      educationTitleColor: '#007FA3',
+      skillsTitleColor: '#007FA3',
+      bioColor: { body: '#555555', title: '#007FA3', email: '#ffce00', location: '#005A70', phone: '#157c96ff', redes: '#157c96ff', icon: '#157c96ff' },
+      image: `${import.meta.env.BASE_URL}img/pearson-logo.png`,
     },
   },
 };

@@ -41,37 +41,37 @@ const CVContent = ({ data, themeStyles }) => {
             <Section id="about" title="About Me">
                 <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' }, alignItems: 'flex-start', gap: 4 }}>
                     <Box sx={{ flex: 1 }}>
-                        <Typography variant="h3" gutterBottom>{personalInfo.name}</Typography>
-                        <Typography variant="h5" color="text.secondary" gutterBottom>{personalInfo.title}</Typography>
+                        <Typography variant="h3" color={themeStyles?.bioColor?.title || 'text.secondary'} gutterBottom>{personalInfo.name}</Typography>
+                        <Typography variant="h5" color={themeStyles?.bioColor?.title || 'text.secondary'} gutterBottom>{personalInfo.title}</Typography>
                         <Box sx={{ display: 'flex', gap: 2, mb: 2, flexWrap: 'wrap' }}>
                             <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
-                                <EmailIcon fontSize="small" color="action" />
-                                <Typography variant="body2">{personalInfo.email}</Typography>
+                                <EmailIcon fontSize="small" sx={{ color: themeStyles?.bioColor?.icon || 'action' }} />
+                                <Typography color={themeStyles?.bioColor?.email || 'text.secondary'} variant="body2">{personalInfo.email}</Typography>
                             </Box>
                             <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
-                                <LocationOnIcon fontSize="small" color="action" />
+                                <LocationOnIcon fontSize="small" sx={{ color: themeStyles?.bioColor?.icon || 'action' }} />
                                 <Typography
                                     variant="body2"
                                     component="a"
                                     href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(personalInfo.location)}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    sx={{ color: 'inherit', textDecoration: 'underline', cursor: 'pointer' }}
+                                    sx={{ color: 'bioColor.body', textDecoration: 'underline', cursor: 'pointer' }}
                                 >
                                     {personalInfo.location}
                                 </Typography>
                             </Box>
                         </Box>
-                        <Typography paragraph>{personalInfo.summary}</Typography>
+                        <Typography color={themeStyles?.bioColor?.body || 'text.secondary'}>{personalInfo.summary}</Typography>
                         <Box sx={{ display: 'flex', gap: 1 }}>
                             {socialLinks.github && (
-                                <IconButton href={socialLinks.github} target="_blank"><GitHubIcon /></IconButton>
+                                <IconButton href={socialLinks.github} target="_blank"><GitHubIcon sx={{ color: themeStyles?.bioColor?.redes }} /></IconButton>
                             )}
                             {socialLinks.linkedin && (
-                                <IconButton href={socialLinks.linkedin} target="_blank"><LinkedInIcon /></IconButton>
+                                <IconButton href={socialLinks.linkedin} target="_blank"><LinkedInIcon sx={{ color: themeStyles?.bioColor?.redes }} /></IconButton>
                             )}
                             {socialLinks.twitter && (
-                                <IconButton href={socialLinks.twitter} target="_blank"><TwitterIcon /></IconButton>
+                                <IconButton href={socialLinks.twitter} target="_blank"><TwitterIcon sx={{ color: themeStyles?.bioColor?.redes }} /></IconButton>
                             )}
                         </Box>
                     </Box>

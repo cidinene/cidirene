@@ -37,6 +37,7 @@ const Layout = ({ children, sections, onNavigate, personalInfo, currentTheme, on
         { key: 'tinybird', domain: 'tinybird.co', label: 'Tinybird' },
         { key: 'clickhouse', domain: 'clickhouse.com', label: 'ClickHouse' },
         { key: 'revenuecat', domain: 'revenuecat.com', label: 'RevenueCat' },
+        { key: 'pearson', domain: 'pearson.com', label: 'Pearson' },
     ];
 
     const drawerContent = (
@@ -45,7 +46,7 @@ const Layout = ({ children, sections, onNavigate, personalInfo, currentTheme, on
                 <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', mb: 3, mt: 2 }}>
                     <Avatar
                         alt={personalInfo.name}
-                        src={personalInfo.photo}
+                        src={`${import.meta.env.BASE_URL}${personalInfo.photo}`}
                         sx={{ width: 100, height: 100, mb: 2, border: `4px solid ${theme.palette.primary.main}` }}
                     />
                     <Typography variant="h6" sx={{ textAlign: 'center', fontWeight: 'bold' }}>
